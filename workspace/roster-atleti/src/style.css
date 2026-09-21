@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; padding: 16px; }
+main { max-width: 800px; margin: auto; }
+form input { margin-right: 8px; }
+#filtri { margin: 12px 0; }
+#lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.card { padding: 8px; border: 1px solid #ccc; border-radius: 6px; text-align: center; }
+.card img { display: block; margin: 0 auto 8px; object-fit: cover; }
+.card.in-squadra { border-color: green; box-shadow: 0 0 6px rgba(0,128,0,0.2); }
+button { cursor: pointer; }
